@@ -11,7 +11,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async msg => {
-	if(!msg.content.startsWith(settings.CMD_PREFIX)) {
+	if (!msg.content.startsWith(settings.CMD_PREFIX)) {
 		return;
 	}
 
